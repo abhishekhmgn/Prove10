@@ -1,0 +1,161 @@
+:root {
+  --main-bg-color: teal;
+}
+
+.jumbotron {
+  background: var(--main-bg-color);
+  color: white;
+  padding-bottom: 80px; 
+}
+
+.jumbotron .btn-primary {
+  background: #5a73c7;
+  border-color: #5a73c7; 
+}
+
+.jumbotron .btn-primary:hover {
+  background: #4846c1; 
+}
+  
+.jumbotron p {
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 1em auto 2em; 
+}
+  
+.navbar + .jumbotron {
+  margin-top: -20px; 
+}
+
+
+  
+.jumbotron .lang-logo {
+  display: block;
+  background: #B01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white; 
+}
+.jumbotron .lang-logo img {
+  max-width: 100%; 
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+input {
+  color: var(--main-bg-color);
+  border: 3px solid white;
+}
+
+
+.navbar button{
+  font: inherit;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  color:  gray;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.navbar button:hover {
+  color: white;
+}
+
+.fancy button {
+  color: var(--main-bg-color);
+  border: 3px solid white;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.fancy button:hover {
+  border: 3px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+textarea {
+  color: var(--main-bg-color);
+  overflow: auto;
+  resize: none;
+  width: 40%;
+  height: 140px;
+  margin: 20px;
+  border: 3px solid white;
+}
+
+input[type=text]:focus, input[type=textarea]:focus {
+  border: 3px solid gray;
+}
+
+.item img,
+input[type=image] {
+  display: block;
+  max-width: 30%;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+}
+
+input {
+  border-color: gray;
+}
+
+.product-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.product-form label,
+.product-form input,
+.product-form textarea {
+  margin: 1rem 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.product-form input,
+.product-form textarea {
+  margin: 1rem 0;
+  border: 1px solid #a1a1a1;
+  border-radius: 2px;
+}
+
+.product-form input:focus,
+.product-form textarea:focus {
+  margin: 1rem 0;
+  outline-color: #00695c;
+}
+
+.product-form button {
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: var(--main-bg-color);
+  padding: 0.5rem;
+  border: 1px solid green;
+  margin: 0 1rem;
+}
+.pagination a:active {
+  background: darkblue;
+  color: white;
+}

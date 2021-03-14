@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="_csrf" content="<%= csrfToken %>">
+    <script src="/scripts/fetch.js"></script>
+</head>
+
+<body>
+    <h1>WELCOME</h1>
+    <ul id="json">
+
+    </ul>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <button type="button" id="submitButton" onclick="submission()">Submit</button>
+    </form>
+</body>
+
+</html>
